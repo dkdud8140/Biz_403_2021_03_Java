@@ -52,6 +52,10 @@
 
 
 
+## 원격 저장소 주소를 단축하여 입력하기
+1. 원격저장소 주소를 별명으로 설정하기
+* git remote add origin http://github.com/dkdud8140/Biz_403_2021_03_Java.git
 
-
+* git push -u origin master
+* git push
 
