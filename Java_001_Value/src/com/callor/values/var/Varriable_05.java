@@ -1,6 +1,6 @@
 package com.callor.values.var;
 
-public class Variable_05 {
+public class Varriable_05 {
 	public static void main(String[] args) {
 		
 		int num1 = 0;

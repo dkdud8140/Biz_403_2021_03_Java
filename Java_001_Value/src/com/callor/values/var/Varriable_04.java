@@ -1,6 +1,6 @@
 package com.callor.values.var;
 
-public class Variable_04 {
+public class Varriable_04 {
 	public static void main(String[] args) {
 		
 		// 변수가 초기화 된다(사용할 준비가 된다.)

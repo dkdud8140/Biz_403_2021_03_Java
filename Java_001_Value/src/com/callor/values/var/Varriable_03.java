@@ -1,6 +1,6 @@
 package com.callor.values.var;
 
-public class Variable_03 {
+public class Varriable_03 {
 	public static void main(String[] args) {
 		
 		// 정수형(integer Type) 변수 num1 선언

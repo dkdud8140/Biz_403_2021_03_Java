@@ -1,6 +1,6 @@
 package com.callor.values.var;
 
-public class Variable_06 {
+public class Varriable_06 {
 	public static void main(String[] args) {
 		
 		// 정수형 변수 선언과 clear
