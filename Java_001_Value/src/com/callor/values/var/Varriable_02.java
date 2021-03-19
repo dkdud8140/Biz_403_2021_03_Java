@@ -30,5 +30,10 @@ public class Varriable_02 {
 		System.out.println(num1 / num2);
 		System.out.println(num1 % num2);
 		
+		
+		int num5 ; 
+		
+		System.out.println(num5);
+		
 	}
 }
