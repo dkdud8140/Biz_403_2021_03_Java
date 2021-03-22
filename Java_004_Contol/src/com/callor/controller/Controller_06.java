@@ -28,14 +28,76 @@ public class Controller_06 {
 	public static void main(String[] args) {
 		
 		/*
-		 * 프로젝트에서 JDk의 도구를 사용하는 방법
-		 * 변수를 선언하고 초기화하는 것과 유사
+		 * 프로젝트에서 JDk의 클래스(도구)를 사용하는 방법
+		 *  : 변수를 선언하고 초기화하는 것과 유사
 		 * 
+		 * int 키워드는 정수형 변수를 선언
+		 * Integer 키워드는 정수형 변수를 선언. 실체는 키워드가 아니고 class 이다.
+		 * 
+		 * 키워드는 java가 처음 탄생될 때 부터 만들어진 명령어
+		 * class는 키워드처럼 사용이 되지만 java가 탄생하고 이후에 필요에 따라 추가, 확장된 명령
 		 */
 		
 		
 		Random rnd = null ; // 선언
 		rnd = new Random() ; // 초기화
+		
+		Random rnd1 = new Random();
+		
+		int num1 = 0 ;
+		Integer num2 = 0 ;
+		Integer num3 = new Integer(0);
+		
+		
+		String str1 = "";
+		str1 = "ghsrkfehd";
+		String str2 = null ;
+		str2 = "이몽룡"
+;		String str3 = new String();
+		
+		/*
+		 * 
+		 * wrapper 클래스
+		 *  = 클래스이지만 변수선언처럼 사용할 수 있는 도구들
+		 *  
+		 * Integer, Long, Float, Double, Boolean, Charactor 들은
+		 * int, long, float, boolean, char 키워드에 확장된 기능을 할 수 있도록 만들어진 클래스인다
+		 * 기본 기능은 값을 저장하는 변수를 선언한다.
+		 * 
+		 * 기본 기능에 별도록 확정된 추가 명령을 수행할 수 있도록 만들어진 도구들이다.
+		 * 
+		 * 
+		 * 
+		 */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
