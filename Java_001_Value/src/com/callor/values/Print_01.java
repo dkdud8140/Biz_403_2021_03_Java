@@ -42,7 +42,7 @@ public class Print_01 {
 		*/
 		System.out.printf("%d + %d = %d", 3, 4, 3+4);
 		System.out.println();
-		System.out.printf("%d x %d = %d", 3, 3, 3 * 3);
+		System.out.printf("%d x %d%n = %d", 3, 3, 3 * 3);
 		
 		/*
 		 * printf()는 형식에 맞추어서 출력하고자 할 때
