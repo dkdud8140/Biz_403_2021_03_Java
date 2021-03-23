@@ -1,6 +1,7 @@
 package com.callor.apps;
 
 import java.util.Random;
+
 /*
  * 학급의 인원은 50 ~ 59명입니다.
  * 학급의 수는 5개입니다.
