@@ -33,7 +33,7 @@ public class Varriable_02 {
 		
 		int num5 ; 
 		
-		System.out.println(num5);
+		// System.out.println(num5);
 		
 	}
 }

@@ -38,9 +38,6 @@ public class App_10 {
 		 * 5	6
 		 * ...	....
 		 * 
-		 * 
-		 * 
-		 * 
 		 */
 		
 		// 배열의 오름차순 정렬코드
@@ -57,7 +54,6 @@ public class App_10 {
 		}
 		
 		System.out.println(Arrays.toString(intNums));
-		
 		
 		
 		

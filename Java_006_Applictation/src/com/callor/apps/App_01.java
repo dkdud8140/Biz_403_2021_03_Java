@@ -21,7 +21,7 @@ public class App_01 {
 	public static void main(String[] args) {
 
 		/*
-		 * 배열의 크기를 변수에 설정해 두고 코드내에서 사용하기
+		 * 배열의 크기를 변수에 설정해 두고 코드내에서 사용하기 
 		 */
 		int numsLength = 20 ;
 		
