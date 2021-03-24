@@ -13,12 +13,12 @@ public class App_07 {
 	
 		System.out.println(intNum);
 		
-		while(true) { 
+		while(intNum > 0) { 
 			
 			nCount++;
 			// intNum = intNum% 10
 			//intNum 값과 10을 나머지 연산을 수행
-			// intNum / 10 =>  3_385_859 / 10 =  338585
+			// intNum / 10 =>  3_385_859 / 10 =  338_585
 			intNum /= 10 ; 
 			
 			System.out.println(intNum);
@@ -31,7 +31,7 @@ public class App_07 {
 			//}
 		}
 		
-		// System.out.println(intNum + "는 " + nCount + "자릿수");
+		 System.out.println(intNum + "는 " + nCount + "자릿수");
 		
 		
 		

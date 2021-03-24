@@ -17,7 +17,7 @@ public class Pay_03 {
 			
 			nPay %= nPaper ; 
 			
-			// nPaper를 2 또는 5로 나누기
+			// nPaper를] 2 또는 5로 나누기
 			if(sw > 0) {
 				nPaper = nPaper / 5 ;
 				

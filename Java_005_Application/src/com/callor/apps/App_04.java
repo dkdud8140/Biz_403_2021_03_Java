@@ -26,7 +26,7 @@ public class App_04 {
 			intClasses[i] = rnd.nextInt(10) + 50;
 			pizzaBox[i] = intClasses[i] / 6;
 
-			boolean bYes = pizzaBox[i] == 0;
+			boolean bYes = intClasses[i] % 6 == 0;
 
 			if (!bYes) {
 				pizzaBox[i] ++ ;
