@@ -49,10 +49,12 @@ public class App_10 {
 					intNums[i] = intNums[j];
 					intNums[j] = temp;
 					
+					System.out.println(Arrays.toString(intNums));
 				}
 			}
 		}
 		
+		System.out.println("-----------------------------------------------------");
 		System.out.println(Arrays.toString(intNums));
 		
 		
