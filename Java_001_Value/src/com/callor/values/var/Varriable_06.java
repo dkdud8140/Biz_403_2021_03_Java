@@ -14,7 +14,7 @@ public class Varriable_06 {
 		
 		
 		// -2의 63승 ~ 2의 63승 -1까지 저장 가능
-		long numLong = 30L;
+		long numLong = 300000000L;
 		Long numLong2 = 30L;
 		
 		
@@ -27,7 +27,7 @@ public class Varriable_06 {
 		Double num6 = 30.0;
 		
 		System.out.println(num1);
-		System.out.println(num2);
+		System.out.println(numLong);
 		System.out.println(num3);
 		System.out.println(num4);
 		System.out.println(num5);
