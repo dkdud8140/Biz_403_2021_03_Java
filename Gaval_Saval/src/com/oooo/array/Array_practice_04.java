@@ -22,6 +22,30 @@ public class Array_practice_04 {
 			}
 		}
 		
+		System.out.println("-----------");
+		
+		for(int num : nums) {
+			if(num % 2 == 0) {
+				System.out.println(num + "는 짝수");
+			} else {
+				System.out.println(num + "는 홀수");
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 }

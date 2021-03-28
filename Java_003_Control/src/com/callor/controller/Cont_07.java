@@ -27,7 +27,7 @@ public class Cont_07 {
 		intNum = 15 ;
 		for(int index = 2 ; index < intNum ; index ++) {
 			// System.out.println(intNum % index == 0 );
-			System.out.println(intNum % index == 0 ? "소수가 아님" : "");
+			System.out.println(intNum % index == 0 ? "소수가 아님" : " ");
 		}
 	}
 }
