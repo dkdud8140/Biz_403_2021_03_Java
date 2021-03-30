@@ -21,7 +21,6 @@ public class Cont_02 {
 		for( int index = 0 ; index < 10 ; index ++ ) {
 			System.out.println(index);
 		}
-		
 		/*
 		 * 반복 비교하기 위하여 사용하는 변수를 i로 선언 및 초기화 하고
 		 * 조건문을 설정하는 일반적인 반복(구)문
