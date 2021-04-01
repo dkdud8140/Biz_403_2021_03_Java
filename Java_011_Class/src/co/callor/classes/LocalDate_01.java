@@ -1,7 +1,8 @@
 package co.callor.classes;
 
 import java.time.LocalDateTime;
-import java.time.temporal.TemporalAdjuster;
+
+import java.time.temporal.TemporalAdjusters;
 
 public class LocalDate_01 {
 	public static void main(String[] args) {
@@ -25,12 +26,12 @@ public class LocalDate_01 {
 		System.out.println(local.minusDays(10));
 		System.out.println(local.minusMonths(1));
 
-		System.out.println(local.with(TemporalAdjuster.firstDayOfYear()));
+		System.out.println(local.with(TemporalAdjusters.firstDayOfYear()));
 
-		System.out.println(local.with(TemporalAdjuster.firstDayOfMonth()));
+		System.out.println(local.with(TemporalAdjusters.firstDayOfMonth()));
 
 		// 오늘부터 3일후가 포함된 달의 마지막 날
-		System.out.println(local.plusDays(3).with(TemporalAdjuster.firstDayOfMonth()));
+		System.out.println(local.plusDays(3).with(TemporalAdjusters.firstDayOfMonth()));
 
 	}
 }
