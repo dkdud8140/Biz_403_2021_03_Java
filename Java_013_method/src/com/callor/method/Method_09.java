@@ -1,6 +1,5 @@
 package com.callor.method;
 
-import com.callor.method.service.NumberServiceV7;
 import com.callor.method.service.NumberServiceV7A;
 
 public class Method_09 {
@@ -16,7 +15,7 @@ public class Method_09 {
 		NumberServiceV7A nsV7A = new NumberServiceV7A();
 
 		nsV7A.inputScore();
-		nsV7A.getSubScore();
+		nsV7A.printSubScore();
 
 	}
 }
