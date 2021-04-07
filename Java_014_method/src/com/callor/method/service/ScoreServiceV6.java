@@ -20,15 +20,14 @@ public class ScoreServiceV6 {
 	}
 
 	public void inputScore() {
-
-		ScoreVO vo;
+	
 		Integer score[] = new Integer[subject.length];
 
 		for (int i = 0; i < 5; i++) {
 
 			System.out.println("*".repeat(50));
 			System.out.println((i + 1) + "번 학생의 점수를 입력합니다");
-			vo = new ScoreVO();
+			ScoreVO vo = new ScoreVO();
 
 			for (int j = 0; j < subject.length; j++) {
 				score[j] = isV2.inputValue(subject[j], 0, 100);

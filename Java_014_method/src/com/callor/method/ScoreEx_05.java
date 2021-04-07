@@ -12,7 +12,7 @@ public class ScoreEx_05 {
 		
 		ScoreServiceV5 ssV5 = new ScoreServiceV5();
 		
-		ssV5.inputScore();
+		//ssV5.inputScore();
 		
 		ScoreServiceV5A ssV5A = new ScoreServiceV5A();
 		
@@ -24,7 +24,7 @@ public class ScoreEx_05 {
 		
 		/*
 		 * scoreVO 라는 집을 짓고( heap 메모리 생성)
-		 * 그 값을 stter 한 후에
+		 * 그 값을 setter 한 후에
 		 * 그 집의 조수를 scoreListd에 저장
 		 */
 		ScoreVO scoreVO = new ScoreVO();
@@ -34,6 +34,8 @@ public class ScoreEx_05 {
 		scoreVO.setEng(90);
 		scoreVO.setMath(90);
 		scoreList.add(scoreVO);
+		
+		System.out.println("========================");
 
 		/*
 		 * 만약 scoreVO = new ScoreVO() 코드를 생략하면
@@ -52,10 +54,12 @@ public class ScoreEx_05 {
 		scoreList.add(scoreVO);
 		
 		for(int i = 0 ; i < scoreList.size() ; i ++ ) {
-			System.out.println(scoreList.get(i).getKor() + "\t");
-			System.out.println(scoreList.get(i).getEng() + "\t");
-			System.out.println(scoreList.get(i).getMath() + "\t");
+			System.out.print(scoreList.get(i).getKor() + "\t");
+			System.out.print(scoreList.get(i).getEng() + "\t");
+			System.out.println(scoreList.get(i).getMath() + "\n");
 		}
+		
+		System.out.println("========================");
 		
 		scoreVO = new ScoreVO();
 		scoreVO.setKor(55);
@@ -64,9 +68,9 @@ public class ScoreEx_05 {
 		scoreList.add(scoreVO);
 		
 		for(int i = 0 ; i < scoreList.size() ; i ++ ) {
-			System.out.println(scoreList.get(i).getKor() + "\t");
-			System.out.println(scoreList.get(i).getEng() + "\t");
-			System.out.println(scoreList.get(i).getMath() + "\t");
+			System.out.print(scoreList.get(i).getKor() + "\t");
+			System.out.print(scoreList.get(i).getEng() + "\t");
+			System.out.println(scoreList.get(i).getMath() + "\n");
 		}
 	}
 }

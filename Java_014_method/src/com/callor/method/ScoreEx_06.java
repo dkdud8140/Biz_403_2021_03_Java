@@ -1,6 +1,5 @@
 package com.callor.method;
 
-import com.callor.method.service.ScoreServiceV6;
 import com.callor.method.service.ScoreServiceV6A;
 
 public class ScoreEx_06 {	
