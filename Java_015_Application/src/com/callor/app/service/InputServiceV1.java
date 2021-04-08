@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InputServiceV1 {
 
-	Scanner scan;
+	protected Scanner scan;
 
 	public InputServiceV1() {
 		scan = new Scanner(System.in);
@@ -13,8 +13,8 @@ public class InputServiceV1 {
 	public Integer inputValue(String title) {
 
 		while (true) {
-			System.out.println(title + "값을 입력하세요.(QUIT 입력시 작업종료)");
-			System.out.println("\n입력 >> ");
+			System.out.println("\n" + title + "값을 입력하세요.(QUIT 입력시 작업종료)");
+			System.out.println("입력 >> ");
 			String strNum = scan.nextLine();
 
 			if (strNum.equals("QUIT")) {
@@ -25,7 +25,7 @@ public class InputServiceV1 {
 				Integer intNum = Integer.valueOf(strNum);
 				return intNum;
 			} catch (NumberFormatException e) {
-				System.out.println("QUIT 혹은 정수만 입력하세요.");
+				System.out.println("\nQUIT 혹은 정수만 입력하세요.");
 				continue;
 			}
 		}

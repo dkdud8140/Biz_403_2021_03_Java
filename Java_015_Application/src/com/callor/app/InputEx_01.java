@@ -12,7 +12,7 @@ public class InputEx_01 {
 		isV1.inputValue("새우깡", 0);
 		isV1.inputValue("새우깡", 0, 1000);
 		
-		
+		System.out.println(isV1.toString());
 		
 	}
 }
