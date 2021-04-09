@@ -16,7 +16,7 @@ public class ScoreServiceImplV1 implements ScoreService {
 	private String subject[]; // 과목 이름 배열
 	private Integer scores[]; // 과목 점수 임시 저장 배열
 
-	private final int st = 5; // 학생수
+	// private final int st = 5; // 학생수
 
 	public ScoreServiceImplV1() {
 
@@ -53,10 +53,12 @@ public class ScoreServiceImplV1 implements ScoreService {
 						this.inputScore();
 					} else if (intMenu == 2) {
 						this.printScore();
+					} else {
+						System.out.println("\n입력은 1 또는 2 또는 QUIT만 입력하세요");
 					}
 					break;
 				} catch (NumberFormatException e) {
-					System.out.println("입력은 1 또는 2 또는 QUIT만 입력하세요");
+					System.out.println("\n입력은 1 또는 2 또는 QUIT만 입력하세요");
 					continue;
 				}
 			}
@@ -80,15 +82,25 @@ public class ScoreServiceImplV1 implements ScoreService {
 
 	public String inputNumber(String name) {
 
-		System.out.printf("%s학생의 학번을 입력하세요(QUIT 입력시 종료)\n", name);
+		Integer intNum = null;
+		while (true) {
+			System.out.printf("%s학생의 학번을 입력하세요(QUIT 입력시 종료)\n", name);
 
-		System.out.print("학번입력 >> ");
-		String strNum = scan.nextLine();
-		if (strNum.equals("QUIT")) {
-			return null;
+			System.out.print("학번입력 >> ");
+			String strNum = scan.nextLine();
+			if (strNum.equals("QUIT")) {
+				return null;
+			}
+			try {
+				intNum = Integer.valueOf(strNum);
+				strNum = String.format("%04d", intNum);
+				return strNum;
+			} catch (NumberFormatException e) {
+				System.out.println("숫자만 입력하세요.");
+				continue;
+			}
 		}
-		return strNum;
-
+		
 	}
 
 	@Override
