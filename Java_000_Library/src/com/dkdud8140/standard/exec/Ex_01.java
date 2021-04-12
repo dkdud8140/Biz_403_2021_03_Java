@@ -1,10 +1,11 @@
-package com.dkdud8140.standard;
+package com.dkdud8140.standard.exec;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
+import com.dkdud8140.standard.InputService;
 import com.dkdud8140.standard.impl.InputServiceImplV1;
 
 //테스트 클래스
