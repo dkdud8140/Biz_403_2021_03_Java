@@ -69,10 +69,18 @@ public class ScoreServiceImplV2 implements ScoreService {
 
 	@Override
 	public void saveScore() {
-		// TODO Auto-generated method stub
-
+		
+		System.out.println("성적리스트 저장");
+		System.out.println("저장할 파일이름을 입력하세요");
+		System.out.print("입력 >> ");
+		String strFileName = scan.nextLine();
+		if(strFileName.equals("")) {
+			System.out.println("파일 이름을 입력해야 합니다");
+			return ;
+		}
+		
+		
 	}
-
 	@Override
 	public void readScore() {
 		// TODO Auto-generated method stub
