@@ -11,11 +11,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 import com.callor.word.domain.WordVO;
+import com.callor.word.servie.WordService;
 import com.dkdud8140.standard.InputService;
 import com.dkdud8140.standard.MenuService;
 import com.dkdud8140.standard.impl.InputServiceImplV1;
 
-public class WordServiceImplV1 {
+public class WordServiceImplV1 implements WordService{
 
 	protected InputService is;
 	protected MenuService ms;
@@ -119,7 +120,7 @@ public class WordServiceImplV1 {
 		return shuffleEnglish ;
 	}
 	
-	private void inputWord(String[] viewWord) {
+	protected String inputWord(String[] viewWord) {
 		
 		System.out.println("=".repeat(50));
 		System.out.println("뤼팡의 영단어 게임 V1");
@@ -134,7 +135,7 @@ public class WordServiceImplV1 {
 		String strInput = scan.nextLine();
 		System.out.println("=".repeat(50));
 		
-		
+		return strInput ;
 		
 	}
 	
@@ -146,7 +147,7 @@ public class WordServiceImplV1 {
 	 * 뒤섞어 배열로 만든 후 리턴
 	 */
 
-	private String[] shuffleWord(String strEnglish) {
+	protected String[] shuffleWord(String strEnglish) {
 		
 		// 영문단어를 스펠링 단위로 잘라서 배열로 생성
 		String shuffleEnglish[] = strEnglish.split("");
@@ -174,7 +175,7 @@ public class WordServiceImplV1 {
 
 	}
 
-	private void loadWords(String wordFile) {
+	protected void loadWords(String wordFile) {
 		// TODO word.txt 파일을 읽어 wordList 만들어두기
 
 		FileReader fileReader = null;
