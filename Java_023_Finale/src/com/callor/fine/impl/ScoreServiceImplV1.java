@@ -9,15 +9,23 @@ import com.callor.fine.service.ScoreService;
 
 public class ScoreServiceImplV1 implements ScoreService{
 
-	private List<ScoreVO> scoreList ;
-	private Scanner scan ;
-	
+	protected List<ScoreVO> scoreList ;
+	protected Scanner scan ;
 	
 	
 	public ScoreServiceImplV1() {
 		scoreList = new ArrayList<ScoreVO>();
 		scan = new Scanner(System.in) ;
-	
+	}
+
+
+	@Override
+	public void inputScore() {
+	}
+
+
+	@Override
+	public void printList() {
 	}
 	
 	

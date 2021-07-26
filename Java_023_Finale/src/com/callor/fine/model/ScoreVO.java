@@ -6,6 +6,15 @@ public class ScoreVO {
 	private Integer kor ;
 	private Integer eng ;
 	private Integer math ;
+	
+	public ScoreVO() {
+		num = null ;
+		kor = null ;
+		eng = null ;
+		math = null ;
+	
+	}
+	
 	public String getNum() {
 		return num;
 	}
@@ -29,6 +38,11 @@ public class ScoreVO {
 	}
 	public void setMath(Integer math) {
 		this.math = math;
+	}
+
+	@Override
+	public String toString() {
+		return "ScoreVO [num=" + num + ", kor=" + kor + ", eng=" + eng + ", math=" + math + "]";
 	}
 	
 	
